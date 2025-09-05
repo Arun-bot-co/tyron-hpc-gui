@@ -1,9 +1,84 @@
-project/
-├── index.html
-└── versions/
-    ├── gcc.html
-    ├── yambo.html
-    ├── openpbs.html
-    ├── gromacs.html
-    ├── lammps.html
-    └── openmpi.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TYRON - HPC Application Installer</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: red;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      background-color: white;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+    }
+
+    header {
+      text-align: center;
+      font-size: 3rem;
+      color: red;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .sidebar {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 0.9rem;
+      color: blue;
+    }
+
+    .welcome {
+      text-align: center;
+      font-size: 1.6rem;
+      margin: 30px 0;
+      color: #111;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .button-blue {
+      background-color: #007bff;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-blue:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">Netweb Product</div>
+
+    <header>TYRON</header>
+
+    <div class="welcome">Welcome to <strong>Tyron Systems</strong></div>
+
+    <div class="buttons">
+      <a href="versions/gcc.html" class="button-blue">GCC</a>
+      <a href="versions/yambo.html" class="button-blue">Yambo</a>
+      <a href="versions/openpbs.html" class="button-blue">OpenPBS + Dependencies</a>
+      <a href="versions/gromacs.html" class="button-blue">GROMACS</a>
+      <a href="versions/lammps.html" class="button-blue">LAMMPS</a>
+      <a href="versions/openmpi.html" class="button-blue">OpenMPI</a>
+    </div>
+  </div>
+</body>
+</html>
