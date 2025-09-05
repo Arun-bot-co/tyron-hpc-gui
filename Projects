@@ -1,0 +1,9 @@
+project/
+├── index.html
+└── versions/
+    ├── gcc.html
+    ├── yambo.html
+    ├── openpbs.html
+    ├── gromacs.html
+    ├── lammps.html
+    └── openmpi.html
